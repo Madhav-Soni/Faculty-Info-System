@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "stat-card": {
+          DEFAULT: "hsl(var(--stat-card-bg))",
+          border: "hsl(var(--stat-card-border))",
+          hover: "hsl(var(--stat-card-hover))",
+        },
+        nav: {
+          DEFAULT: "hsl(var(--nav-bg))",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
